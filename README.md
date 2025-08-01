@@ -1,7 +1,7 @@
 # Placement Eligibility & Student Performance Dashboard
 A fully interactive Streamlit-based application designed to manage and track student placement readiness using real-time filters, SQL analytics, and object-oriented programming principles.
 
-**✅ Project Overview**
+# ✅ Project Overview
 
 This project helps placement teams and training coordinators:
 
@@ -10,36 +10,36 @@ This project helps placement teams and training coordinators:
         3. Track placement readiness across batches and graduation years.
         4. Gain data-driven insights using SQL and dashboards.
 
-**🧠 Concepts Used**
+# 🧠 Concepts Used
 
-🧱 1. Object-Oriented Programming (OOP) in Python
+**🧱 1. Object-Oriented Programming (OOP) in Python**
 
         1. Created a DBManager class to handle all database operations.
         2. Promotes code reuse, modularity, and scalability.
 
-🧪 2. Streamlit for Dashboard UI
+**🧪 2. Streamlit for Dashboard UI**
 
         1.Used st.sidebar, st.selectbox, st.slider, st.dataframe for interactivity.
         2.Sidebar filters dynamically control the student eligibility queries.
         3.Insights are selected via dropdown and rendered in real time.
 
-🗃️ 3. Relational Databases (SQLite)
+**🗃️ 3. Relational Databases (SQLite)**
 
         1.Four normalized tables: Students, Programming, SoftSkills, and Placements.
         2.Relationships managed using student_id as a foreign key.
 
-🧪 4. Faker Library for Data Generation
+**🧪 4. Faker Library for Data Generation**
 
         1.Automatically populates realistic student data.
         2.Simulates enrollments, performance, and placement outcomes.
 
-📊 5. SQL for Data Analytics
+**📊 5. SQL for Data Analytics**
 
         1.Over 10 insights using aggregate functions (AVG, COUNT, GROUP BY).
         2.SQL joins used to relate tables and extract insights.
         3.Queries include filters for placement status, internship count, and batch analysis.
 
-📈 6. Interactive Data Filtering
+**📈 6. Interactive Data Filtering**
 
         Filters on:
                 - Problems Solved
@@ -70,7 +70,7 @@ This project helps placement teams and training coordinators:
         9.Most Certified Students (Top 5)
         10.Interview Rounds Cleared (Top 5)
 
-# 🛠️ Tech Stack**
+# 🛠️ Tech Stack
 
         Frontend: Streamlit
         Backend: Python 3 (OOP)        
@@ -105,6 +105,10 @@ This project helps placement teams and training coordinators:
 **Step 1: Install required packages**
 
         pip install streamlit faker sqlite3 pandas
+
+**Step 2: Run the Data generation**
+
+       python src/data_generator.py
 
 **Step 2: Launch the application**
 
