@@ -18,28 +18,28 @@ This project helps placement teams and training coordinators:
    1. Created a DBManager class to handle all database operations.
    2. Promotes code reuse, modularity, and scalability.
 
-### 2. Streamlit for Dashboard UI**
+### 2. Streamlit for Dashboard UI
 
    1. Used st.sidebar, st.selectbox, st.slider, st.dataframe for interactivity.
    2. Sidebar filters dynamically control the student eligibility queries.
    3. Insights are selected via dropdown and rendered in real time.
 
-### 3. Relational Databases (SQLite)**
+### 3. Relational Databases (SQLite)
 
    1. Four normalized tables: Students, Programming, SoftSkills, and Placements.
    2. Relationships managed using student_id as a foreign key.
 
-### 4. Faker Library for Data Generation**
+### 4. Faker Library for Data Generation
 
    1. Automatically populates realistic student data.
    2. Simulates enrollments, performance, and placement outcomes.
 
-### 📊 5. SQL for Data Analytics**
+### 📊 5. SQL for Data Analytics
    1. Over 10 insights using aggregate functions (AVG, COUNT, GROUP BY).
    2. SQL joins used to relate tables and extract insights.
    3. Queries include filters for placement status, internship count, and batch analysis.
 
-### 📈 6. Interactive Data Filtering**
+### 📈 6. Interactive Data Filtering
 
  Filters on:
         - Problems Solved
